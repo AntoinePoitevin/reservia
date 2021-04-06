@@ -632,3 +632,293 @@ footer
 {
     color: #0065fc;
 }
+@media (max-width: 730px) {
+body
+{
+    font-size: 1.3em;
+}
+header
+{
+    flex-wrap: wrap;
+}
+nav
+{
+    margin-top: 15px;
+    margin-left: 0px;
+    padding-top: 0px;
+    order: 3;
+    width: 100%;
+    justify-content: space-around;
+}
+.logo
+{
+    order: 1;
+}
+.inscritions
+{
+    order: 2;
+    margin-right: 0px;
+}
+
+.rubriques
+{   
+    text-align: center;
+    width: 50%;
+    border-bottom: 4px #d9d9d9 solid;
+    padding-bottom: 23px;
+}
+.rubriques:hover
+{   
+    border-bottom: 4px  #0065fc solid;
+}
+.rubrique1
+{   
+    margin-right: 0px;
+}
+.rubrique1:hover
+{
+    border-top: none;
+    padding-top: 0px;
+}
+.rubrique2
+{   
+    margin-right: 0px;
+}
+.rubrique2:hover
+{
+    border-top: none;
+    padding-top: 0px;
+}
+.filtres
+{
+    flex-wrap: wrap-reverse;
+}
+.hebergement
+{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.marseille
+{
+    background-color: white;
+    width: 100%;
+    margin-left: 0px;
+}
+.populaire
+{
+    border-radius: 0px 0px 0px 0px; 
+    width: 100%; 
+    margin-left: 0px;  
+    margin-bottom: 30px;
+}
+.ligne
+{
+    flex-direction: column;
+    align-items: center; 
+    margin-bottom: 0px;
+}
+.lignepopulaire
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blancimage
+{
+    width: 90%;
+    margin-bottom: 30px;
+}
+.blancimagepop
+{
+    width: 90%;
+}
+.imghebergement1
+{
+    width: 100%;
+}
+.imghebergement2
+{
+    width: 100%;
+}
+.imghebergement3
+{
+    width: 100%;
+}
+.imghebergement4
+{
+    width: 100%;
+}
+.imghebergement5
+{
+    width: 100%;
+}
+.imghebergement6
+{
+    width: 100%;
+}
+.activite
+{
+    width: 100%;
+}
+
+.ligneactivite
+{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.colloneactivite
+{
+    width: 100%;
+}
+
+.imgactivite1
+{
+    width: 100%;
+    height: 150px;
+}
+.imgactivite2
+{
+    width: 100%;
+    height: 150px;
+}
+.imgactivite3
+{
+    width: 100%;
+    height: 150px;
+}
+.imgactivite4
+{
+    width: 100%;
+    height: 150px;
+}
+.imgactivite5
+{
+    width: 100%;
+    height: 150px;
+}
+.imgactivite6
+{
+    width: 100%;
+    height: 150px;
+}
+
+.blancactivitepetit
+{
+    width: 90%;
+
+    margin-bottom: 30px;
+    margin-left: 0px;
+}
+.blancactivitegrand
+{
+    width: 90%;
+
+    margin-bottom: 30px;
+}
+.lignefooter
+{
+    flex-direction: column;
+    margin-left: 30px;
+}
+.hebergementitrepopulaire
+{
+    margin-left: 20px;    
+}
+.etoilepopulaire
+{
+    margin-top: 55px;
+}
+
+.etoilepopulaire2
+{
+    margin-top: 33px;
+}
+
+.filtres
+{
+    flex-wrap: wrap;
+    width: 90%;
+}
+.conteneurfiltres
+{
+    margin-top: 15px;
+    flex-wrap: wrap;
+
+}
+.conteneurfiltres1
+{
+    width: 100%;
+    justify-content: space-between;
+}
+.conteneurfiltres2
+{
+    margin-top: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.logofiltre
+{
+    width: 50px;
+    height: 50px;
+}
+.filtre1
+{
+    margin-left: 0px; 
+    padding-right: 30px;
+}
+.filtre2
+{
+    margin-left: 0px; 
+    padding-right: 30px;
+    margin-right: 30px;
+}
+.filtre3
+{
+    margin-left: 0px;
+    padding-right: 30px; 
+}
+.filtre4
+{
+    margin-left: 0px; 
+    margin-top: 15px;
+    padding-right: 30px;
+
+}
+.boutonrecherche
+{
+    padding: 15px 15px 15px 15px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: -8px;
+}
+.zonerecherche
+{
+    width: 70%;
+}
+.logosearch
+{
+    padding: 15px;
+
+}
+.presentation
+{
+    font-size: 1.7em; 
+} 
+
+.loupe
+{
+    display: contents;
+    font-size: 1.4em;
+}
+.mot
+{
+    display: none;
+}
+.image
+{    
+    font-size: 0.8em;
+    padding: 2px;
+    height: 20px;
+}
+}

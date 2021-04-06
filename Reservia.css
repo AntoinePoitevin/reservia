@@ -922,3 +922,116 @@ nav
     height: 20px;
 }
 }
+@media (min-width: 730px) and (max-width: 1400px) {
+body
+{
+    font-size: 0.9em;   
+}
+header
+{
+    justify-content: flex-start;
+}
+nav
+{
+    justify-content: flex-start;
+    margin-left: 0px;
+}
+.inscritions
+{
+    margin-right: 0px;    
+}
+.inscription
+{
+    margin-right: 110px;
+}
+.rubrique1
+{
+    margin-right: 0px;
+    margin-left: 80px;
+}
+.rubrique2
+{
+    margin-right: 0px;
+    margin-left: 80px;
+}
+.hebergement
+{
+    flex-direction: column-reverse;
+}
+.marseille
+{
+    width: 93%;
+}
+.populaire
+{
+    margin-left: 20px;
+    width: 90%;   
+    margin-bottom: 30px; 
+}
+.collonefooter
+{
+    padding-right: 100px;
+}
+.imgactivite1
+{
+    width: 100%;
+    height: 150px;
+}
+
+.imgactivite2
+{ 
+    width: 100%;
+    height: 150px;
+}
+
+.imgactivite3
+{
+    width: 100%;
+    height: 150px;
+}
+
+.imgactivite4
+{
+    width: 100%;
+    height: 150px;
+}
+
+.imgactivite5
+{
+    width: 100%;
+    height: 150px;
+}
+
+.imgactivite6
+{
+    width: 100%;
+    height: 150px;
+}
+.blancactivitegrand
+{
+    width: 90%;
+    height: auto;
+    margin: 0px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.blancactivitepetit
+{
+    width: 43%;
+    height: auto;
+    margin: 15px;
+}
+.colloneactivite
+{
+    width: 100%;
+    padding: 0px;
+    flex-direction: row;
+    justify-content: center;
+}
+.ligneactivite
+{
+    width: 93%;
+    flex-direction: column;
+    margin-bottom: 30px;
+}

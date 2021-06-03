@@ -512,7 +512,7 @@ nav
 .ligneactivite
 {
     	display: flex;
-    	flex-wrap: nowwrap;
+    	flex-wrap: nowrap;
     	margin-left: 40px;
 }
 .colloneactivite
@@ -616,7 +616,7 @@ footer
 .lignefooter
 {
     	display: flex;
-    	flex-wrap: nowwrap;
+    	flex-wrap: nowrap;
     	margin-left: 40px;
 }
 .collonefooter
@@ -1503,3 +1503,4 @@ nav
 {
     	padding-right: 100px;
 } 
+}

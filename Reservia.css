@@ -1,7 +1,7 @@
 body
 {
 	margin: 0;
-  font-family: Raleway, serif;
+    font-family: Raleway, serif;
 	width: 100%;
 }
 a
@@ -14,13 +14,13 @@ a
 .header
 {
 	display: flex;
-  justify-content: space-between;
+    justify-content: space-between;
 }
 nav
 {    
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
     padding-top: 30px; 
     margin-left: 45%;
 }
@@ -39,7 +39,7 @@ nav
 .rubrique1:hover
 {
     border-top: 2px #0065fc solid;
-    padding-top: 23px;
+    padding-top: 28px;
     color: #0065fc;
 }
 .rubrique2
@@ -52,7 +52,7 @@ nav
 .rubrique2:hover
 {
     border-top: 2px #0065fc solid;
-    padding-top: 23px;
+    padding-top: 28px;
     color: #0065fc;
 }
 .inscritions
@@ -97,7 +97,7 @@ nav
     color: white;
     background-color: #0065fc; 
     border-radius: 0px 10px 10px 0px;
-    border: 1px white solid;
+    border: 4px #0065fc solid;
     padding-top: 5px;
     padding-bottom: 5px;
     margin-left: -5px;
@@ -105,7 +105,8 @@ nav
 } 
 .boutonrecherche:hover
 {
-    color: #0065fc; 
+    color: #0065fc;
+    border-color:#d9d9d9; 
     background-color: #d9d9d9;
     font-weight: bold;
 }
@@ -116,8 +117,8 @@ nav
 }
 .zonerecherche
 {
-    border: 1px white solid;
-    height: 40px;
+    border: 1px #d9d9d9 solid;
+    height: 38px;
 } 
 
 .logosearch
@@ -247,7 +248,7 @@ nav
     width: 23px;
     height: 23px;
     color: #0065fc;
-    border: 1px #0065fc solid;
+    border: 1px #d9d9d9 solid;
     border-radius: 100%;
     display: flex;
     align-items: center; 
@@ -290,6 +291,7 @@ nav
 {
     background-image: url('images/hebergements/3_medium/p1.jpg');
     background-size: cover;
+    background-position: center;
     width: 100%;
     height: 120px;
     border-radius: 10px 10px 0px 0px;
@@ -298,6 +300,7 @@ nav
 {
     background-image: url('images/hebergements/3_medium/h2.jpg');
     background-size: cover;
+    background-position: center;
     width: 100%;
     height: 120px;
     border-radius: 10px 10px 0px 0px;
@@ -306,6 +309,7 @@ nav
 {
     background-image: url('images/hebergements/3_medium/p3.jpg');
     background-size: cover;
+    background-position: center;
     width: 100%;
     height: 120px;
     border-radius: 10px 10px 0px 0px;
@@ -314,6 +318,7 @@ nav
 {
     background-image: url('images/hebergements/3_medium/h1.jpg');
     background-size: cover;
+    background-position: center;
     width: 100%;
     height: 120px;
     border-radius: 10px 10px 0px 0px;
@@ -322,6 +327,7 @@ nav
 {
     background-image: url('images/hebergements/3_medium/h5.jpg');
     background-size: cover;
+    background-position: center;
     width: 100%;
     height: 120px;
     border-radius: 10px 10px 0px 0px;
@@ -330,6 +336,7 @@ nav
 {
     background-image: url('images/hebergements/3_medium/h4.jpg');
     background-size: cover;
+    background-position: center;
     width: 100%;
     height: 120px;
     border-radius: 10px 10px 0px 0px;
@@ -468,6 +475,7 @@ nav
 {   
     background-image: url('images/hebergements/3_medium/p2.jpg');
     background-size: cover;
+    background-position: center;
     width: 120px;
     height: 100%;
     border-radius: 10px 0px 0px 10px;
@@ -477,6 +485,7 @@ nav
 {   
     background-image: url('images/hebergements/3_medium/h6.jpg');
     background-size: cover;
+    background-position: center;
     width: 120px;
     height: 100%;
     border-radius: 10px 0px 0px 10px;
@@ -486,6 +495,7 @@ nav
 {   
     background-image: url('images/hebergements/3_medium/h3.jpg');
     background-size: cover;
+    background-position: center;
     width: 120px;
     height: 100%;
     border-radius: 10px 0px 0px 10px;
@@ -582,6 +592,7 @@ nav
 {
    	background-image: url('images/activites/4_small/a1.jpg');
    	background-size: cover;
+    background-position: center;
    	width: 100%;
    	height: 334px;
    	border-radius: 10px 10px 0px 0px;
@@ -589,7 +600,8 @@ nav
 .imgactivite2
 {
    	background-image: url('images/activites/4_small/a2.jpg');
-   	background-size: cover;   
+   	background-size: cover;
+    background-position: center;   
    	width: 100%;
    	height: 150px;
    	border-radius: 10px 10px 0px 0px;
@@ -598,6 +610,7 @@ nav
 {
   	background-image: url('images/activites/4_small/a3.jpg');
     background-size: cover;
+    background-position: center;
     width: 100%;
     height: 100px;
     border-radius: 10px 10px 0px 0px;
@@ -606,6 +619,7 @@ nav
 {
     background-image: url('images/activites/4_small/a4.jpg');
     background-size: cover;
+    background-position: center;
     width: 100%;
     height: 334px;
     border-radius: 10px 10px 0px 0px;
@@ -614,6 +628,7 @@ nav
 {
     background-image: url('images/activites/4_small/a5.jpg');
     background-size: cover;
+    background-position: center;
     width: 100%;
     height: 100px;
     border-radius: 10px 10px 0px 0px;
@@ -622,6 +637,7 @@ nav
 {
     background-image: url('images/activites/4_small/a6.jpg');
     background-size: cover;
+    background-position: center;
     width: 100%;
     height: 150px;
     border-radius: 10px 10px 0px 0px;
@@ -1188,7 +1204,7 @@ nav
 .rubrique1:hover
 {
     border-top: 2px #0065fc solid;
-    padding-top: 23px;
+    padding-top: 28px;
     color: #0065fc;
 }
 .rubrique2
@@ -1201,7 +1217,7 @@ nav
 .rubrique2:hover
 {
     border-top: 2px #0065fc solid;
-    padding-top: 23px;
+    padding-top: 28px;
     color: #0065fc;
 }
 .inscritions

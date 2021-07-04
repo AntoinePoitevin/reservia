@@ -1,8 +1,13 @@
+html
+{
+    overflow-x: hidden;
+}
 body
 {
 	margin: 0;
     font-family: Raleway, serif;
 	width: 100%;
+    overflow-x: hidden; 
 }
 a
 { 
@@ -1179,7 +1184,7 @@ nav
 {
 	display: flex;
     justify-content: flex-start;
-    margin-right: 50%;
+    padding-right: 50%;
 }
 nav
 {    
